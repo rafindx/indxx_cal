@@ -370,7 +370,7 @@ align-items: center;
 color: #3F3F3F;
 }
 .vec{
-  padding: 0px 264px 13px 500px !important;
+  padding: 0px 264px 13px 400px !important;
 }
 .pt-44{
   background-image: url("../../assets/img/Vector_1g.png");
@@ -407,7 +407,7 @@ color: #3F3F3F;
   padding-left: 120px;
 }*/
 .boxt{
- width: 220px;
+width: 220px;
 font-style: normal;
 font-weight: 700;
 font-size: 25px;
@@ -1453,7 +1453,7 @@ hr {
     border-right: 11px solid #002F86;
 }
 .content p{
-  width: auto !important;
+  width: auto;
 }
 .py-4 {
     width: auto;
@@ -1481,10 +1481,10 @@ hr {
   display: none;
 }
 .cadmin{
-padding-left: 25px !important;
+padding-left: 25px ;
 }
 .ca{
-padding-left: 32px !important;
+padding-left: 32px;
 }
 }
 
@@ -1493,6 +1493,9 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {*/
 @media only screen and (min-device-width: 720px) and (max-device-width: 1024px){
+  .boxt {
+    width: 620px;
+    }
   .ip{
     padding-left: 188px;
 }
@@ -1510,37 +1513,42 @@ and (orientation : landscape) {*/
 
 }
 .vec{
-  padding: 0px 264px 13px 104px !important;
+  padding: 0px 264px 13px 55px !important;
 }
-.pl{
+/*.pl{
   padding-left: 115px !important;
 
-}
-#footer .footer-top .footer-links {
-    margin-bottom: -51px;
-}
+}*/
 #navbar{
   display: none ;
+}
+.p-use {
+    padding: 0px 0px 0px 50px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    color: #F6F9FF;
+    width: 500px;
 }
 .nmca {
     /* padding-right: 192px; */
     padding-top: 100px;
     font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 32px;
+    /* font-weight: 700; */
+    font-size: 25px;
     /* line-height: 79px; */
     /* display: flex; */
     align-items: center;
     /* text-align: right; */
     color: #171B48;
-    padding-left: 11px;
+    /* padding-left: 11px; */
 }
 
-.cp{padding-left: 200px;
-    width: 500px;
+.cp{padding-left: 120px;
+    width: 600px !important;
   }
 .cont-1 {
-    width: 600px;
+    width: 600px !important;
     padding-left: 130px;
 }
 /*.mp{
@@ -1612,4 +1620,20 @@ hr{
     border-bottom: 1px solid #7fbdff;
     padding-bottom: 20px;
     display: inline-block;
+}
+
+/* ipad Mini Portrait */
+@media only screen and (width:768px) and (resolution: 163dpi) {
+
+.vec {
+    padding: 0px 264px 13px 53px !important;
+}
+}
+
+/* ipad Mini Landscape */
+@media only screen and (width:1024px) and (resolution: 163dpi) {
+  .vec {
+    padding: 0px 264px 13px 53px !important;
+}
+
 }
